@@ -1,0 +1,8 @@
+# Binaries
+shamir
+shamir-linux-amd64
+shamir-linux-amd64.tar.gz
+
+# Test binaries
+*.test
+*.out

@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Automatically keep GitHub Actions updated
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # Automatically keep Go dependencies (and Go compiler version in go.mod) updated
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "weekly"
